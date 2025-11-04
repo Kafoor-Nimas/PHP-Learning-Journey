@@ -31,6 +31,19 @@
                 <td>Ram</td>
                 <td>23</td>
             </tr>
+            <?php
+                echo"
+                <tr>
+                <td>2</td>
+                <td>Sam</td>
+                <td>26</td>
+                </tr> "
+            ?>
+             <tr>
+                <td>3</td>
+                <td>Sara</td>
+                <td>21</td>
+            </tr>
         </tbody>
     </table>
 </body>
