@@ -26,6 +26,20 @@ echo "<br>", var_dump($a!==$b) ;
 $a=5;
 $b=25;
 echo "<br>", var_dump($a<=>$b) ;
+echo "<br>";
+echo "<br>";
+# Logical Operator
+
+$eng=75;
+$mat=98;
+$sci=82;
+echo "<br>", var_dump($eng>=35 and $mat>=35 and $sci>=35);
+echo "<br>", var_dump($eng>=35 or $mat>=35 or $sci>=35);
+echo "<br>", var_dump($eng>=35 && $mat>=35 && $sci>=35);
+echo "<br>", var_dump($eng>=35 || $mat>=35 || $sci>=35);
+echo "<br/><br/>" , var_dump(!$eng>=35)
+
+
 
 
 ?>
